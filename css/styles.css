@@ -656,7 +656,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.checkbox-input:checked + .checkbox-privacy .checkbox-span {
+.visually-hidden:checked + .checkbox-privacy .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
